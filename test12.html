@@ -1,35 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/script12-1.css">
 </head>
+
 <body>
+    <div class="bg">
+        <div class="text">
+            <h1>BMI Calculator</h1>
+            <hr>
+            <br><br>
+            <div class="text">
+                <label class="text">น้ำหนักตัว (Kg.)</label> 
+                <br><br>
+                <input type="number" name="" id="weight"  class="c-text">
+            </div>
 
-    <h1>BMI Calculator</h1>
-    <hr>
-    น้ำหนักตัว (Kg.)
-    <br><br>
-    <input type="number" name="" id="weight">
-    <br><br>
-    ส่วนสูง (Cm.)
-    <br><br>
-    <input type="number" name="" id="height">
-    <br><br>
-    <button id="calBMI">คำนวณ</button>
-    <br><br>
-    BMI
-    <br>
-    <span id="bmiValue"> 0</span>
-    <br><br>
-    <span id="bmiResult">การแปลผล  BMI </span>
+            <br><br>
+            <div class="text">
+                <label class="text">ส่วนสูง (Cm.)</label>  
+                <br><br>
+                <input type="number" name="" id="height" class="c-text">
+            </div>
+            <div class="c-n"><br><br>
+                <a href="#" class="btn" id="calBMI">
+                    <span>คำนวณ</span>
+                    
+                </a>
+            </div>
 
+            
 
+            <br><br>
+            <div class="c-in">
+                <div class="in">
+                BMI
+                <br>
+                <span id="bmiValue"> 0</span>
+            </div>
+            <br><br>
+            <span id="bmiResult">การแปลผล BMI </span>
+        </div>
+            
+        </div>
+    </div>
 
 
     <script src="./js/script12.js"></script>
-    
+    <script src="./css/script12-1.css"></script>
+
 </body>
+
 </html>

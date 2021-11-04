@@ -1,3 +1,23 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 let weight = document.querySelector('#weight')
 let height = document.getElementById('height')
 let calBMI = document.getElementById('calBMI')
